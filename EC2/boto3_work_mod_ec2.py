@@ -31,4 +31,4 @@ if __name__=='__main__':
     instance_id = ""
     
 ec2 = boto3.client('ec2')
-start_instance(ec2, instance_id)
+start_instance(ec2, instance_id) #change instance state (start, stop, terminate)
